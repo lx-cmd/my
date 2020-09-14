@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         liang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "456", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "梁笑", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "赵敏", Toast.LENGTH_SHORT).show();
             }
         });
     }
